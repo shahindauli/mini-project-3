@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{background-color: aliceblue;}
+       .d1{float: left; margin-left: 9%;margin-top: 80px; position: relative;
+        background-color: rgb(105, 51, 192); width: 40%; height: 300px;
+       }
+       .d2{float: left;margin-top: 80px;position: relative;
+        background-color: rgb(54, 54, 54); width: 19%;  height: 300px; margin-left: 2%;
+       }
+       .d3{float: right;margin-top: 80px;box-shadow: 5px 5px 5px rgb(231, 230, 230);
+        background-color: white; width: 19%;  height: 620px; margin-right: 9%;position: relative;
+       }
+       .d4{float: left;margin-top: 20px; box-shadow: 5px 5px 5px rgb(231, 230, 230);position: relative;
+        background-color: white; width: 19%;  height: 300px; margin-left: 9%;
+       }
+       .d5{float: left; margin-left: 2%;margin-top: 20px;position: relative;
+        background-color: black; width: 40%; height: 300px; 
+       }
+       .s{ border-radius: 20px;}
+  
+       .circle{float: left;
+        max-width: 30px; height: 30px; border-radius: 50%; margin-top: 30px; margin-left: 30px;
+       }
+      .circle>img{border-radius: 50%;}
+       .bg-pq{float: right; position: absolute;
+        width: 104px; height: 102px; right: 10%; z-index: 1;
+       }
+       .named{position: relative;
+        float: left; width:130px; height: 30px; margin-left: 30px; text-align: left;
+        color: white; margin-top: 30px; z-index: 2;
+       }
+       .p1{position: absolute;
+       top: -18px; left: 5px; font-size: 15px;  font-family: Arial, Helvetica, sans-serif;
+       }
+       .p2{position: absolute;
+       top: 0px; left: 5px; font-size: 14px; font-family: Arial, Helvetica, sans-serif;
+       }
+       .nd1n{color: white;} .nd1q{color: rgb(133, 97, 219);}
+       .nd2n{color: white;} .nd2q{color:grey}
+       .nd3n{color: black;} .nd3q{color:grey;}
+       .nd4n{color: black;} .nd4q{color: grey;}
+       .nd5n{color: white;} .nd5q{color: grey;}
+       .head{position: absolute;
+        color:white; font-size:20px; z-index: 1; width: 85%; height:100px; 
+         top: 80px; left:30px;font-family: Arial, Helvetica, sans-serif;
+       }
+       .headw{position: absolute;
+        color:black; font-size:20px; z-index: 2; width: 85%; height:100px; 
+         top: 80px; left:30px; font-family: Arial, Helvetica, sans-serif;
+       }
+       .summary{position: absolute;
+        color:white; font-size:15px; z-index: 1; width: 85%;  box-sizing: border-box;
+         top: 180px; left:30px;font-family: Arial, Helvetica, sans-serif;
+       }
+       .summaryw{position: absolute;
+        color:grey; font-size:15px; z-index: 1; width: 85%;   box-sizing: border-box;
+         top: 180px; left:30px;font-family: Arial, Helvetica, sans-serif;
+       }
+       .d4>.summaryw{top: 150px;}
+   
+       @media only screen and (max-width:1350px){
+        .s{
+          width: 32%; height: 500px;  margin-left: .5%; margin-top: 20px; margin-right: .5%;
+            border-radius: 20px;
+        }
+        .d1>.summary{
+          top:250px;
+         }
+         .d5>.summary{
+          top:250px;
+         }
+       }
+       @media only screen and (max-width:950px){
+        .s{
+            width: 49%; height: 500px;  margin-left: .5%; margin-top: 20px; margin-right: .5%;
+            border-radius: 20px;
+        }
+        .d2{
+          height: 300px;
+        }
+        .d4{
+          height: 300px;
+        } 
+        .d1>.summary{
+          top:250px;
+         }
+         .d5>.summary{
+          top:250px;
+         }
+       }
+       @media only screen and (max-width:650px){
+        .s{
+            width: 98%; margin-left: 1%; margin-top: 20px; margin-right: 1%;
+            border-radius: 20px;
+        }
+        .d1{height: 550px;}
+        .d2{height:300px ;}
+        .d3{height: 600px;}
+        .d4{height: 300px ;}
+        .d5{height: 500px ;}
+       
+        .summary{
+          top:250px;
+        }
+        .d2>.summary{top: 180px;}
+        .d4>.summaryw{top: 150px;}
+       }
+
+
+
+    </style>
+    </head>
+    <body>
+      <div class="d1 s">
+      <div class="circle">
+       <img  src="image-daniel.jpg " width="100%" height="100%" alt="danielimg " >
+      </div>
+      <div class="named">
+        <p class="p1 nd1n">Danniel Clifford</p>
+        <p class="p2 nd1q">Verified Graduate</p>
+      </div>
+      <div class="bg-pq">
+         <img  src="bg-pattern-quotation.svg " width="100%" height="100%"  alt="bpq">
+      </div>
+      <div class="head">I recieved a job offer mid-course, and the subjects I learned were current, and if not more 
+        so, in the company I joined. I honestly feel I got every penny's worth.
+      </div>
+      <div class="summary">"I was an EMT for many years before I joined the bootcamp. I have been looking for making transition
+        and I heard from some who had an amazing experience from here. I signup for free intro course and found it incredibly fun!
+        I enrolled shortly thereafter. The next 12 weeks was the best-and most gruelling-time of my life. Since completing the cource.
+        I've successfully switched careers, working as a Software Engineer at a VR startup."
+      </div>
+      </div>
+
+      <div class="d2 s">
+        <div class="circle">
+            <img  src="image-jonathan.jpg " width="100%" height="100%" alt="jonathonimg " >
+        </div>
+        <div class="named">
+          <p class="p1 nd2n">Jonathon Walters</p>
+          <p class="p2 nd2q">Verified Graduate</p>
+        </div>
+        <div class="head">The team was very supportive and kept me motivated.</div>
+      <div class="summary"> "I started as a total newbie with virtually no coding skills. I now work as a mobile engeineer for a big company.
+        This was the best investment I've made in myself."
+      </div>
+      </div>
+
+      <div class="d3 s">
+        <div class="circle">
+            <img  src="image-kira.jpg " width="100%" height="100%" alt="kiraimg " >
+         </div>
+         <div class="named">
+          <p class="p1 nd3n">Kira Whittle</p>
+          <p class="p2 nd3q">Verified Graduate</p>
+        </div>
+        <div class="headw">Such a life changing experiences. Highly recommended!</div>
+      <div class="summaryw">"Before joininng the bootcamp, I''ve never writtten a line of code. I needed some instructor from
+        professionals who can  help me learn  programming step by step. I was  encoouraggee to enroll by a former student o
+        theirs who can say only wonderfull things about the program. The entire curriculum and staff didn't disappoint.
+        They were very hands on and I never wait long for assissttance. The agile team project, in particular, was
+        oouutstanding. It took my leaarning to the next level in a way that  no tutorial could never have.  In  fact
+        , I'vve often refferd to it during interview  as example  of my development experience. It certainly help
+        me land a  job as a full stack developer after recieving multiple offers. 100% recommend!"
+
+      </div>
+      </div>
+
+      <div class="d4 s">
+        <div class="circle">
+            <img  src="image-jeanette.jpg " width="100%" height="100%" alt="jeanetteimg" >
+        </div>
+        <div class="named">
+          <p class="p1 nd4n">Jeanette Harmon</p>
+          <p class="p2 nd4q">Verified Graduate</p>
+        </div>
+        <div class="headw">An overall wonderful and rewarding experiences.</div>
+      <div class="summaryw">"Thank you for the wonderful experience! I now have a job  I really enjoy, and make
+        a good living while doing something I love."
+      </div>
+      </div>
+
+      <div class="d5 s">
+        <div class="circle">
+            <img  src="image-patrick.jpg " width="100%" height="100%" alt="patrickimg " >
+        </div>
+        <div class="named">
+          <p class="p1 nd5n">Patrick Abrams</p>
+          <p class="p2 nd5q">Verified Graduate</p>
+        </div>
+        <div class="head">Awessome teaching supports from TAs who did the bootcamp themself. Getting 
+          guidance from them and learning from their expriences was easy.
+        </div>
+      <div class="summary">"The staff seem genuinely concerned about my progress which Is find really refreshing.
+        The program gave me the confidence necessary to able to go out in the world and present myself as a capable
+        junior developer. The standard is above the rest. You will get the personal attention you need from an incredible
+        community of smart and amazing people."
+      </div>
+      </div>
+
+
+    </body>
+</html>
